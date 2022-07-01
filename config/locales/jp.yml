@@ -1,0 +1,28 @@
+jp:
+  base_title: "Ruby on Rails チュートリアルサンプルアプリ"
+  rails_tutorial_name: "The Ruby on Rails チュートリアル"
+  ruby_on_rails: "Ruby on Rails"
+  static_pages:
+    home:
+      title: "ホームページ"
+      welcome: "Welcome to Sample App"
+      first_intro: "これはのホームページです"
+      second_intro: "サンプルアプリケーション"
+      sign_up: "すぐサインアップ！"
+    about:
+      title: "私について"
+      welcome: "私について"
+      first_intro: "Web開発を教えるための本とスクリーンキャストです"
+      second_intro: "これはチュートリアルのサンプルアプリケーションです"
+    contact:
+      title: "コンタクト"
+      welcome: "コンタクト"
+      first_intro: "サンプルアプリについては、Ruby on Railsチュートリアルにお問い合わせください。 "
+      site_link: "コンタクトページ"
+    help:
+      title: "ヘルプ"
+      welcome: "ヘルプ"
+      first_intro: "Ruby on Railsチュートリアルのヘルプを入手してください"
+      help_link: "Rails Tutorialヘルプページ"
+      second_intro: "このサンプルアプリのヘルプを取得するには、を参照してください。"
+      book_link: "Ruby on Railsチュートリアルブック"

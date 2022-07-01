@@ -9,6 +9,7 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+/log/
 
 # Used by dotenv library to load environment variables.
 # .env
@@ -70,3 +71,8 @@ yarn-debug.log*
 .framgia-ci-result.temp.yml
 
 /test/
+/config/database.yml
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
