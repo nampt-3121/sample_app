@@ -1,0 +1,17 @@
+<footer class="footer">
+  <small>
+    <%= link_to t("rails_tutorial_name"), Settings.links.rails_tutorial_jp %>
+    <%= link_to t(".tutorial_author"), Settings.links.rails_author %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path  %></li>
+      <li><%= link_to t(".news"), Settings.links.rails_news %></li>
+      <li>|</li>
+      <li><%= link_to t(".en"), locale: :en %></li>
+      <li><%= link_to t(".vi"), locale: :vi %></li>
+      <li><%= link_to t(".jp"), locale: :jp %></li>
+    </ul>
+  </nav>
+</footer>

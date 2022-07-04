@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>(404) | Softcover.io</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,300|Open+Sans+Condensed:700" , rel="stylesheet" , type="text/css"></link>
+  <style type="text/css">
+    html {
+      background: -moz-radial-gradient(center, ellipse cover, rgba(57,57,78,1) 0%, rgba(35,35,48,1) 57%), #232330;
+      background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(57,57,78,1)), color-stop(57%,rgba(35,35,48,1))), #232330;
+      background: -webkit-radial-gradient(center, ellipse cover, rgba(57,57,78,1) 0%,rgba(35,35,48,1) 57%), #232330;
+      background: -o-radial-gradient(center, ellipse cover, rgba(57,57,78,1) 0%,rgba(35,35,48,1) 57%), #232330;
+      background: -ms-radial-gradient(center, ellipse cover, rgba(57,57,78,1) 0%,rgba(35,35,48,1) 57%), #232330;
+      background: radial-gradient(ellipse at center, rgba(57,57,78,1) 0%,rgba(35,35,48,1) 57%), #232330;
+      background-repeat: no-repeat, repeat;
+    }
+    body {  text-align: center; font-family: georgia, times, serif; height: 500px;}
+    .logo {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+    }
+    .dialog {
+      color: #7292B0;
+      font-family: "Open Sans Condensed",sans-serif;
+      font-size: 13px;
+      font-weight: normal;
+      margin: 15% auto 0 auto;
+      padding: 40px;
+      text-align: center;
+      width: 300px
+    }
+    .dialog p {
+      color: #7292B0;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 13px;
+    }
+    h1 { 
+      color: #fff;
+      font-size: 200%; 
+      line-height: 1.5em; 
+      font-size: 42px;
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- This file lives in public/404.html -->
+
+  <a href="http://www.softcover.io" class="logo">
+    <img src="error_logo.png" />
+  </a>
+
+  <div class="dialog">
+    <img src="/error_logo.png" />
+    <h1>error 404</h1>
+    <p>The page you were looking for doesn't exist. You may have mistyped the address or the page may have moved.</p>
+  </div>
+</body>
+</html>

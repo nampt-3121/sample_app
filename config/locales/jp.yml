@@ -2,6 +2,7 @@ jp:
   base_title: "Ruby on Rails チュートリアルサンプルアプリ"
   rails_tutorial_name: "The Ruby on Rails チュートリアル"
   ruby_on_rails: "Ruby on Rails"
+  tutorial_author: "Michael Hartl"
   static_pages:
     home:
       title: "ホームページ"
