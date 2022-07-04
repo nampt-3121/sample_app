@@ -1,0 +1,28 @@
+vi:
+  base_title: "Xây ứng dụng mẫu với Ruby on Rails"
+  rails_tutorial_name: "Hướng dẫn Ruby on Rails"
+  ruby_on_rails: "Ruby on Rails"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      welcome: "Chào mừng đến với Ứng dụng mẫu"
+      first_intro: "Đây là trang chủ Ứng dụng mẫu của"
+      second_intro: ""
+      sign_up: "Đăng ký ngay nào!"
+    about:
+      title: "Thông tin"
+      welcome: "Thông tin"
+      first_intro: "là một cuốn sách dạy phát triển ứng dụng với"
+      second_intro: "Đây là ứng dụng mẫu của hướng dẫn này"
+    contact:
+      title: "Liên hệ"
+      welcome: "Liên hệ"
+      first_intro: "Bạn có thể liên hệ với tác giả về  ứng dụng mẫu"
+      site_link: "tại đây"
+    help:
+      title: "Trợ giúp"
+      welcome: "Trợ giúp"
+      first_intro: "Nhận sự hỗ trợ của Hướng dẫn Ruby on Rails"
+      help_link: "tại đây"
+      second_intro: "Nhận hỗ trợ về ứng dụng mẫu, xem tại"
+      book_link: "Sách Hướng dẫn Ruby on Rails"
