@@ -2,6 +2,7 @@ vi:
   base_title: "Xây ứng dụng mẫu với Ruby on Rails"
   rails_tutorial_name: "Hướng dẫn Ruby on Rails"
   ruby_on_rails: "Ruby on Rails"
+  tutorial_author: "Michael Hartl"
   static_pages:
     home:
       title: "Trang chủ"
