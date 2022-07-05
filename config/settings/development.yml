@@ -8,3 +8,11 @@ links:
   rails_help: "https://github.com/mhartl/sample_app_6th_ed/blob/main/HELP.md"
   rails_book: "https://www.railstutorial.org/book"
   rails_news: "https://news.railstutorial.org/"
+
+digits:
+  length_50: 50
+  length_255: 255
+  length_6: 6
+
+regex:
+  email: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/'
