@@ -16,3 +16,8 @@ digits:
 
 regex:
   email: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/'
+
+gravatar:
+  url: "https://secure.gravatar.com/avatar/"
+  default_size: 80
+  size_view: 200
