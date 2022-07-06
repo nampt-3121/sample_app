@@ -3,6 +3,7 @@ en:
   rails_tutorial_name: "The Ruby on Rails Tutorial"
   ruby_on_rails: "Ruby on Rails"
   tutorial_author: "Michael Hartl"
+  unavaiable_data: "Unavaiable Data"
   static_pages:
     home:
       title: "Home"
@@ -28,3 +29,21 @@ en:
       help_link: "Rails Tutorial Help Page"
       second_intro: "To get help on this sample app, see the"
       book_link: "Ruby on Rails Tutorial book"
+  users:
+    not_found: "User not found"
+    new:
+      title: "Sign up"
+      welcome: "Sign up"
+      first_intro: "This will be a signup page for new users."
+      submit: "Create my account"
+    create:
+      success_message: "Welcome to the Sample App!"
+      failure_message: "Sign up failed!"
+  shared:
+    error_messages:
+      prefix: "The form contains %{err_count} "
+      error: "error"
+  activerecord:
+    attributes:
+      user:
+        password_confirmation: "Password Confirmation"
