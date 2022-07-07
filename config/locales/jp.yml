@@ -42,3 +42,13 @@ jp:
     error_messages:
       prefix: "フォームには %{err_count} が含まれています"
       error: "エラー"
+  sessions:
+    new:
+      title: "ログイン"
+      welcome: "ログイン"
+      submit: "ログイン"
+      email_label: "メール"
+      new_question: "新しいユーザー？"
+      password_label: "パスワード"
+    create:
+      failure_message: "メールアドレスまたはパスワードが間違っています。もう一度お試しください"

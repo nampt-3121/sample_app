@@ -47,3 +47,13 @@ en:
     attributes:
       user:
         password_confirmation: "Password Confirmation"
+  sessions:
+    new:
+      title: "Log in"
+      welcome: "Log in"
+      submit: "Log in"
+      email_label: "Email"
+      new_question: "New user?"
+      password_label: "Password"
+    create:
+      failure_message: "Invalid email/password combination"
