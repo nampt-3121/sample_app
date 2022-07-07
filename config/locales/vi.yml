@@ -50,5 +50,6 @@ vi:
       email_label: "Email"
       new_question: "Người dùng mới?"
       password_label: "Mật khẩu"
+      remember_me: "Duy trì đăng nhập"
     create:
       failure_message: "Sai email hoặc mật khẩu rồi vui lòng thử lại"

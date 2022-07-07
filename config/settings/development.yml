@@ -21,3 +21,5 @@ gravatar:
   url: "https://secure.gravatar.com/avatar/"
   default_size: 80
   size_view: 200
+user:
+  remember: "1"
