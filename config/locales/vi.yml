@@ -28,17 +28,27 @@ vi:
       help_link: "tại đây"
       second_intro: "Nhận hỗ trợ về ứng dụng mẫu, xem tại"
       book_link: "Sách Hướng dẫn Ruby on Rails"
-    users:
-      not_found: "Không tìm thấy người dùng"
-      new:
-        title: "Đăng ký"
-        welcome: "Đăng ký"
-        first_intro: "Đây sẽ là trang đăng ký cho người dùng mới."
-        submit: "Tạo tài khoản"
-      create:
-        success_message: "Chào mừng đến với Ứng dụng mẫu!"
-        failure_message: "Đăng ký nguời dùng thất bại"
-    shared:
-      error_messages:
-        prefix: "Bạn có %{err_count} "
-        error: "Lỗi"
+  users:
+    not_found: "Không tìm thấy người dùng"
+    new:
+      title: "Đăng ký"
+      welcome: "Đăng ký"
+      first_intro: "Đây sẽ là trang đăng ký cho người dùng mới."
+      submit: "Tạo tài khoản"
+    create:
+      success_message: "Chào mừng đến với Ứng dụng mẫu!"
+      failure_message: "Đăng ký nguời dùng thất bại"
+  shared:
+    error_messages:
+      prefix: "Bạn có %{err_count} "
+      error: "Lỗi"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      welcome: "Đăng nhập"
+      submit: "Đăng nhập"
+      email_label: "Email"
+      new_question: "Người dùng mới?"
+      password_label: "Mật khẩu"
+    create:
+      failure_message: "Sai email hoặc mật khẩu rồi vui lòng thử lại"

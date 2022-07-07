@@ -6,6 +6,10 @@
     <%= link_to t("rails_tutorial_name"), Settings.links.rails_tutorial_org %>
     <%= t ".second_intro" %>
   </h2>
-  <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
+  <% if logged_in? %>
+    <%= current_user.name %>
+  <% else %>
+    <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
+  <% end %>
 </div>
 <%= link_to image_tag("rails.svg", alt: "Rails logo", class: "home-logo"), Settings.links.ruby_on_rails %>
