@@ -55,5 +55,6 @@ en:
       email_label: "Email"
       new_question: "New user?"
       password_label: "Password"
+      remember_me: "Remember me on this computer"
     create:
       failure_message: "Invalid email/password combination"

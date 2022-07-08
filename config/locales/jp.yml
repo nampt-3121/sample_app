@@ -50,5 +50,6 @@ jp:
       email_label: "メール"
       new_question: "新しいユーザー？"
       password_label: "パスワード"
+      remember_me: "このコンピューターで私を覚えておいてください"
     create:
       failure_message: "メールアドレスまたはパスワードが間違っています。もう一度お試しください"
