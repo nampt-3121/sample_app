@@ -77,3 +77,15 @@ en:
       remember_me: "Remember me on this computer"
     create:
       failure_message: "Invalid email/password combination"
+      mail_activation_message: "Please check your email to activate your account."
+      unactivated_message: "Unverified account"
+  account_activations:
+      edit:
+        success_message: "Account activated!"
+        failure_message: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      greeting: "Hi"
+      body: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate_link: "Activate"

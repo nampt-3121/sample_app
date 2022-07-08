@@ -72,3 +72,15 @@ vi:
       remember_me: "Duy trì đăng nhập"
     create:
       failure_message: "Sai email hoặc mật khẩu rồi vui lòng thử lại"
+      mail_activation_message: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+      unactivated_message: "Tài khoản chưa được xác thực"
+  account_activations:
+    edit:
+      success_message: "Tài khoản đã được kích hoạt!"
+      failure_message: "Liên kết kích hoạt không hợp lệ"
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      greeting: "Xin chào"
+      body: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+      activate_link: "Hoạt động"

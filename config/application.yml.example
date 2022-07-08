@@ -1,0 +1,6 @@
+host: "localhost:3000"
+host_email: "nam@sun-asterisk.com"
+mail_user_name: "nam@sun-asterisk.com"
+mail_user_password: "Gmail App Password"
+mail_address: "smtp.gmail.com"
+mail_port: "587"

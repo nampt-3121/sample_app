@@ -72,3 +72,15 @@ jp:
       remember_me: "このコンピューターで私を覚えておいてください"
     create:
       failure_message: "メールアドレスまたはパスワードが間違っています。もう一度お試しください"
+      mail_activation_message: "メールをチェックしてアカウントを有効にしてください."
+      unactivated_message: "未確認のアカウント"
+  account_activations:
+      edit:
+        success_message: "アカウントが有効になりました！"
+        failure_message: "無効なアクティベーションリンク"
+  user_mailer:
+    account_activation:
+      subject: "アカウント開設"
+      greeting: "こんにちは"
+      body: "サンプルアプリへようこそ! 以下のリンクをクリックして、アカウントをアクティブ化してください:"
+      activate_link: "活性化"
