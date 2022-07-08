@@ -30,6 +30,14 @@ jp:
       book_link: "Ruby on Railsチュートリアルブック"
   users:
     not_found: "ユーザーが見つかりません"
+    not_logged: "ログインしてください."
+    unauthorization: "このアクションを実行する権限がありません"
+    index:
+      title: "全てのユーザー"
+      welcome: "全てのユーザー"
+    user:
+      delete: "消す"
+      delete_confirmation: "確信してるの?"
     new:
       title: "サインアップ"
       welcome: "サインアップ"
@@ -38,6 +46,17 @@ jp:
     create:
       success_message: "Welcome to the Sample App!"
       failure_message: "サインアップに失敗しました！"
+    update:
+      edit_success_message: "プロフィール更新済み"
+      edit_failure_message: "プロファイルの更新に失敗しました"
+    destroy:
+      deleted_message: "ユーザーが削除されました"
+      delete_failed_message: "ユーザーの削除に失敗しました"
+    edit:
+      title: "ユーザーの編集"
+      welcome: "プロファイルを更新する"
+      submit: "変更内容を保存"
+      change: "変化する"
   shared:
     error_messages:
       prefix: "フォームには %{err_count} が含まれています"

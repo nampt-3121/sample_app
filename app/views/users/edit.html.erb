@@ -1,0 +1,12 @@
+<% provide :title, t(".title") %>
+<% provide :button_text, t(".submit") %>
+<h1><%= t ".welcome" %></h1>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= render "form" %>
+    <div class="gravatar_edit">
+      <%= gravatar_for @user %>
+      <%= link_to t(".change"), Settings.gravatar.url_gravatar, target: "_blank" %>
+    </div>
+  </div>
+</div>
