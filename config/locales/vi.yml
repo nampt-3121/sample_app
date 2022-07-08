@@ -30,6 +30,14 @@ vi:
       book_link: "Sách Hướng dẫn Ruby on Rails"
   users:
     not_found: "Không tìm thấy người dùng"
+    not_logged: "Vui lòng hãy đăng nhập."
+    unauthorization: "Bạn không có quyền thực hiện hành động này"
+    index:
+      title: "Tất cả người sử dụng"
+      welcome: "Tất cả người sử dụng"
+    user:
+      delete: "Xóa bỏ"
+      delete_confirmation: "Bạn chắc chắn muon xoa?"
     new:
       title: "Đăng ký"
       welcome: "Đăng ký"
@@ -38,6 +46,17 @@ vi:
     create:
       success_message: "Chào mừng đến với Ứng dụng mẫu!"
       failure_message: "Đăng ký nguời dùng thất bại"
+      update:
+      edit_success_message: "Hồ sơ cá nhân đã cập nhật"
+      edit_failure_message: "Cập nhật hồ sơ không thành công"
+    destroy:
+      deleted_message: "Người dùng đã bị xóa"
+      delete_failed_message: "Người dùng xóa không thành công"
+    edit:
+      title: "Người dùng biên tập"
+      welcome: "Cập nhật hồ sơ của bạn"
+      submit: "Lưu thay đổi"
+      change: "Thay đổi"
   shared:
     error_messages:
       prefix: "Bạn có %{err_count} "

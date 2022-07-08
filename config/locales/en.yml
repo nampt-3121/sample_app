@@ -30,7 +30,15 @@ en:
       second_intro: "To get help on this sample app, see the"
       book_link: "Ruby on Rails Tutorial book"
   users:
+    not_logged: "Please log in."
     not_found: "User not found"
+    unauthorization: "You don't have permission to do this action"
+    index:
+      title: "All users"
+      welcome: "All users"
+    user:
+      delete: "Delete"
+      delete_confirmation: "You sure?"
     new:
       title: "Sign up"
       welcome: "Sign up"
@@ -39,6 +47,17 @@ en:
     create:
       success_message: "Welcome to the Sample App!"
       failure_message: "Sign up failed!"
+    edit:
+      title: "Edit user"
+      welcome: "Update your profile"
+      submit: "Save changes"
+      change: Change
+    destroy:
+      deleted_message: "User deleted"
+      delete_failed_message: "User delete failed"
+    update:
+      edit_success_message: "Profile updated"
+      edit_failure_message: Profile update failed
   shared:
     error_messages:
       prefix: "The form contains %{err_count} "

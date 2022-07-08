@@ -12,9 +12,12 @@ class User < ApplicationRecord
             uniqueness: true
 
   validates :password, presence: true,
-            length: {minimum: Settings.digits.length_6}
+            length: {minimum: Settings.digits.length_6},
+            allow_nil: true
 
   before_save :downcase_email
+
+  scope :sort_name, ->{order :name}
 
   has_secure_password
 
