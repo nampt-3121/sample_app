@@ -2,21 +2,29 @@ class SessionsController < ApplicationController
   def new; end
 
   def create
-    email, password, remember_me = params[:session].values_at(:email, :password,
-                                                              :remember_me)
-    user = User.find_by email: email.downcase
-    if user&.authenticate password
-      log_in user
-      remember_me == Settings.user.remember ? remember(user) : forget(user)
-      redirect_back_or user
-    else
-      flash.now[:danger] = t ".failure_message"
-      render :new
-    end
+    email, password = params[:session].values_at(:email, :password)
+    @user = User.find_by email: email.downcase
+    return do_activated if @user&.authenticate password
+
+    flash.now[:danger] = t ".failure_message"
+    render :new
   end
 
   def destroy
     log_out if logged_in?
     redirect_to root_url
+  end
+
+  private
+
+  def do_activated
+    if @user.activated?
+      log_in @user
+      params[:session][:remember_me] == "1" ? remember(@user) : forget(@user)
+      redirect_back_or @user
+    else
+      flash[:warning] = t ".unactivated_message"
+      redirect_to root_url
+    end
   end
 end

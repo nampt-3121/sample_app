@@ -27,7 +27,7 @@ module SessionsHelper
 
   def cookie_authenticate user_id
     user = User.find_by id: user_id
-    return unless user&.authenticated? cookies[:remember_token]
+    return unless user&.authenticated? :remember, cookies[:remember_token]
 
     log_in user
     @current_user = user
