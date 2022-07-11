@@ -25,3 +25,4 @@ gravatar:
 user:
   remember: "1"
   per_page: 5
+  expired_reset_pw_time: 2
