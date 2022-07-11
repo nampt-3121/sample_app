@@ -84,3 +84,28 @@ vi:
       greeting: "Xin chào"
       body: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
       activate_link: "Hoạt động"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+      first_sentence: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+      reset_link: "Đặt lại mật khẩu"
+      second_sentence: "Liên kết này sẽ hết hạn sau %{time} "
+      hour: "h"
+      third_sentence: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      welcome: "Quên mật khẩu"
+      submit: "Chấp nhận"
+    create:
+      success_message: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+      failure_message: "Không tìm thấy địa chỉ email"
+    edit:
+      title: "Đặt lại mật khẩu"
+      welcome: "Đặt lại mật khẩu"
+      submit: "Cập nhật mật khẩu"
+    update:
+      empty_password: "không thể để trống"
+      successful_reset: "Mật khẩu đã được đặt lại."
+      something_wrong: "Đã xảy ra lỗi. Vui lòng thử lại"
+    expired_reset: "Đặt lại mật khẩu đã hết hạn"
+    invalid_link: "Liên kết không hợp lệ"

@@ -84,3 +84,28 @@ jp:
       greeting: "こんにちは"
       body: "サンプルアプリへようこそ! 以下のリンクをクリックして、アカウントをアクティブ化してください:"
       activate_link: "活性化"
+    password_reset:
+      subject: "パスワードのリセット"
+      first_sentence: "パスワードをリセットするには、以下のリンクをクリックしてください:"
+      reset_link: "パスワードのリセット"
+      second_sentence: "このリンクはで期限切れになります %{time} "
+      hour: "時間"
+      third_sentence: "パスワードのリセットをリクエストしなかった場合は、このメールを無視してください。パスワードはそのまま残ります。."
+  password_resets:
+    new:
+      title: "パスワードをお忘れですか"
+      welcome: "パスワードをお忘れですか"
+      submit: "送信"
+    create:
+      success_message: "パスワードのリセット手順が記載されたメール"
+      failure_message: "メールアドレスが見つかりません"
+    edit:
+      title: "パスワードのリセット"
+      welcome: "パスワードのリセット"
+      submit: "パスワードを更新する"
+    update:
+      empty_password: "空にすることはできません"
+      successful_reset: "パスワードがリセットされました."
+      something_wrong: "何かがうまくいかなかった。 もう一度やり直してください"
+    expired_reset: "パスワードのリセットの有効期限が切れました"
+    invalid_link: "無効なリンク"
