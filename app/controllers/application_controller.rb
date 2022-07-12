@@ -28,4 +28,12 @@ class ApplicationController < ActionController::Base
     store_location
     redirect_to login_path
   end
+
+  def load_user
+    @user = User.find_by id: params[:id]
+    return if @user
+
+    flash[:danger] = t ".not_found"
+    redirect_to root_path
+  end
 end

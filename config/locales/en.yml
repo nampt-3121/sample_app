@@ -12,11 +12,14 @@ en:
       first_intro: "This is the home page for"
       second_intro: "sample application"
       sign_up: "Sign up now!"
+      feed_title: "Feed Title"
     about:
       title: "About"
       welcome: "About"
       first_intro: "is a book and screencast to teach web development with"
       second_intro: "This is the sample application for the tutorial"
+    show:
+      micropost: "Microposts"
     contact:
       title: "Contact"
       welcome: "Contact"
@@ -60,6 +63,18 @@ en:
     update:
       edit_success_message: "Profile updated"
       edit_failure_message: Profile update failed
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+  followings:
+    index:
+      title: "Following"
+      not_found: "User not found"
+  followers:
+    index:
+      title: "Followers"
+      not_found: "User not found"
   shared:
     error_messages:
       prefix: "The form contains %{err_count} "
@@ -70,6 +85,9 @@ en:
     user_info:
       view_profile: "View my profile"
       post_singular: "micropost"
+    stats:
+      following: "following"
+      followers: "followers"
   activerecord:
     attributes:
       user:

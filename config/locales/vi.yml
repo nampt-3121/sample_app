@@ -11,6 +11,7 @@ vi:
       first_intro: "Đây là trang chủ Ứng dụng mẫu của"
       second_intro: ""
       sign_up: "Đăng ký ngay nào!"
+      feed_title: "Bảng tin"
     about:
       title: "Thông tin"
       welcome: "Thông tin"
@@ -38,6 +39,8 @@ vi:
     user:
       delete: "Xóa bỏ"
       delete_confirmation: "Bạn chắc chắn muon xoa?"
+    show:
+      micropost: "Microposts"
     new:
       title: "Đăng ký"
       welcome: "Đăng ký"
@@ -57,6 +60,18 @@ vi:
       welcome: "Cập nhật hồ sơ của bạn"
       submit: "Lưu thay đổi"
       change: "Thay đổi"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+  followings:
+    index:
+      title: "Theo dõi"
+      not_found: "Không tìm thấy người dùng"
+  followers:
+    index:
+      title: "Người theo dõi"
+      not_found: "Không tìm thấy người dùng"
   shared:
     error_messages:
       prefix: "Bạn có %{err_count} "
@@ -67,6 +82,9 @@ vi:
     user_info:
       view_profile: "Xem hồ sơ của tôi"
       post_singular: "micropost"
+    stats:
+      following: "theo dõi"
+      followers: "người theo dõi"
   sessions:
     new:
       title: "Đăng nhập"

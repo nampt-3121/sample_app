@@ -3,6 +3,7 @@ class Micropost < ApplicationRecord
   has_one_attached :image
   delegate :name, to: :user
   default_scope ->{order(created_at: :desc)}
+  scope :by_user_ids, ->(user_ids){where user_id: user_ids}
   validates :content, presence: true,
             length: {maximum: Settings.digits.length_140}
   validates :image,
