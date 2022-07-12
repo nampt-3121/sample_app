@@ -61,6 +61,12 @@ vi:
     error_messages:
       prefix: "Bạn có %{err_count} "
       error: "Lỗi"
+    micropost_form:
+      content_holder: "Soạn micropost mới..."
+      button: "Post"
+    user_info:
+      view_profile: "Xem hồ sơ của tôi"
+      post_singular: "micropost"
   sessions:
     new:
       title: "Đăng nhập"
@@ -109,3 +115,17 @@ vi:
       something_wrong: "Đã xảy ra lỗi. Vui lòng thử lại"
     expired_reset: "Đặt lại mật khẩu đã hết hạn"
     invalid_link: "Liên kết không hợp lệ"
+  microposts:
+    create:
+      success: "Đã tạo micropost"
+      failed: "Không thể tạo micropost"
+    destroy:
+      success: "Micropost đã bị xóa"
+      failed: "Đã xảy ra sự cố"
+    micropost:
+      btn: "Xóa"
+      delete_confirm: "Bạn chắc chắn?"
+      posted_time: "Đã đăng %{time} trước kia"
+      invalid_img_type: "phải là một định dạng hình ảnh hợp lệ"
+      invalid_img_size: "phải nhỏ hơn 5MB"
+      file_size_exceed: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."

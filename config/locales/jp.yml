@@ -61,6 +61,12 @@ jp:
     error_messages:
       prefix: "フォームには %{err_count} が含まれています"
       error: "エラー"
+    micropost_form:
+      content_holder: "新しいマイクロポストを作成する..."
+      button: "役職"
+    user_info:
+      view_profile: "プロフィールを見る"
+      post_singular: "マイクロポスト"
   sessions:
     new:
       title: "ログイン"
@@ -109,3 +115,17 @@ jp:
       something_wrong: "何かがうまくいかなかった。 もう一度やり直してください"
     expired_reset: "パスワードのリセットの有効期限が切れました"
     invalid_link: "無効なリンク"
+  microposts:
+    create:
+      success: "マイクロポストが作成されました"
+      failed: "マイクロポストを作成できません"
+    destroy:
+      success: "マイクロポストが削除されました"
+      failed: "何かがうまくいかなかった"
+    micropost:
+      btn: "消去"
+      delete_confirm: "確信してるの?"
+      posted_time: "投稿 %{time} 前に"
+      invalid_img_type: "有効な画像形式である必要があります"
+      invalid_img_size: "5MB未満である必要があります"
+      file_size_exceed: "最大ファイルサイズは5MBです。 小さいファイルを選択してください。"

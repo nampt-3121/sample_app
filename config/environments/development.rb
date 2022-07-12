@@ -75,4 +75,6 @@ Rails.application.configure do
     password: ENV["mail_user_password"],
     enable_starttls_auto: true
   }
+
+  config.middleware.use I18n::JS::Middleware
 end
