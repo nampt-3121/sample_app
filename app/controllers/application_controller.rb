@@ -20,4 +20,12 @@ class ApplicationController < ActionController::Base
     flash[:danger] = t "unavaiable_data"
     redirect_to root_path
   end
+
+  def logged_in_user
+    return if logged_in?
+
+    flash[:danger] = t ".not_logged"
+    store_location
+    redirect_to login_path
+  end
 end

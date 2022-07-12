@@ -33,6 +33,8 @@ en:
     not_logged: "Please log in."
     not_found: "User not found"
     unauthorization: "You don't have permission to do this action"
+    show:
+      micropost: "Microposts"
     index:
       title: "All users"
       welcome: "All users"
@@ -62,6 +64,12 @@ en:
     error_messages:
       prefix: "The form contains %{err_count} "
       error: "error"
+    micropost_form:
+      content_holder: "Compose new micropost..."
+      button: "Post"
+    user_info:
+      view_profile: "View my profile"
+      post_singular: "micropost"
   activerecord:
     attributes:
       user:
@@ -114,3 +122,17 @@ en:
       something_wrong: "Something went wrong. Please try again"
     expired_reset: "Password reset has expired"
     invalid_link: "Invalid_link"
+  microposts:
+    create:
+      success: "Micropost created"
+      failed: "Can't create micropost"
+    destroy:
+      success: "Micropost deleted"
+      failed: "Something went wrong"
+    micropost:
+      btn: "Delete"
+      delete_confirm: "You sure?"
+      posted_time: "Posted %{time} ago"
+      invalid_img_type: "must be a valid image format"
+      invalid_img_size: "should be less than 5MB"
+      file_size_exceed: "Maximum file size is 5MB. Please choose a smaller file."

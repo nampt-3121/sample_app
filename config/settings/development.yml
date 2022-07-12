@@ -13,6 +13,7 @@ digits:
   length_50: 50
   length_255: 255
   length_6: 6
+  length_140: 140
 
 regex:
   email: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/'
@@ -26,3 +27,8 @@ user:
   remember: "1"
   per_page: 5
   expired_reset_pw_time: 2
+image:
+  max_size: 5
+  accept_format: ["image/jpeg", "image/gif", "image/png"]
+  accept_format_html: "image/jpeg,image/gif,image/png"
+  size_500_500: [500, 500]

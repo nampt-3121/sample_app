@@ -7,11 +7,13 @@
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.3.0",
     "bootstrap": "3.4.1",
+    "i18n-js": "^3.9.2",
     "jquery": "3.4.1",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
   "devDependencies": {
+    "rails-erb-loader": "^5.5.2",
     "webpack-dev-server": "^4.9.3"
   }
 }

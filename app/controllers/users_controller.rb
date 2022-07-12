@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @pagy, @users = pagy User.sort_name, items: Settings.user.per_page
   end
 
-  def show; end
+  def show
+    @pagy, @microposts = pagy @user.microposts
+  end
 
   def new
     @user = User.new
@@ -52,14 +54,6 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:name, :email, :password,
                                  :password_confirmation)
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    flash[:danger] = t ".not_logged"
-    store_location
-    redirect_to login_path
   end
 
   def correct_user
