@@ -11,11 +11,14 @@ jp:
       first_intro: "これはのホームページです"
       second_intro: "サンプルアプリケーション"
       sign_up: "すぐサインアップ！"
+      feed_title: "フィードタイトル"
     about:
       title: "私について"
       welcome: "私について"
       first_intro: "Web開発を教えるための本とスクリーンキャストです"
       second_intro: "これはチュートリアルのサンプルアプリケーションです"
+    show:
+      micropost: "マイクロポスト"
     contact:
       title: "コンタクト"
       welcome: "コンタクト"
@@ -57,6 +60,18 @@ jp:
       welcome: "プロファイルを更新する"
       submit: "変更内容を保存"
       change: "変化する"
+    follow:
+      follow: "フォロー"
+    unfollow:
+      unfollow: "フォロー解除"
+  followings:
+    index:
+      title: "フォロー"
+      not_found: "ユーザーが見つかりません"
+  followers:
+    index:
+      title: "フォロワー"
+      not_found: "ユーザーが見つかりません"
   shared:
     error_messages:
       prefix: "フォームには %{err_count} が含まれています"
@@ -67,6 +82,9 @@ jp:
     user_info:
       view_profile: "プロフィールを見る"
       post_singular: "マイクロポスト"
+    stats:
+      following: "フォローアップ"
+      followers: "フォロワー"
   sessions:
     new:
       title: "ログイン"
